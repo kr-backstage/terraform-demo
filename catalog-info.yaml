@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  description: test
+  annotations:
+    github.com/project-slug: undefined/undefined
+  links:
+    - url: https://github.com/undefined/undefined
+      title: Repository
+      icon: github
+    - url: https://github.com/undefined/undefined/actions
+      title: CI/CD Pipeline
+      icon: dashboard
+spec:
+  type: infrastructure
+  lifecycle: experimental
+  owner: platform-team
